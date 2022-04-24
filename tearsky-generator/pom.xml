@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.tearsky</groupId>
+		<artifactId>tearsky</artifactId>
+		<version>4.0.0</version>
+	</parent>
+	<artifactId>tearsky-generator</artifactId>
+	<name>tearsky-generator</name>
+
+	<dependencies>
+		<!--velocity代码生成使用模板 -->
+		<dependency>
+			<groupId>org.apache.velocity</groupId>
+			<artifactId>velocity</artifactId>
+		</dependency>
+		
+		<!-- 通用工具-->
+        <dependency>
+            <groupId>com.tearsky</groupId>
+            <artifactId>tearsky-common</artifactId>
+        </dependency>
+	</dependencies>
+</project>
